@@ -6,6 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  z-index: -100;
   background: no-repeat;
   background-size: cover;
 }
@@ -15,4 +16,36 @@ p font-family helvetica {
 
 .background{
 
+}
+
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 5rem;
+	font-weight: 800;
+	line-height: 15.4px;
+  color: white;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 15.4px;
+  color: rgb(204, 255, 153);
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 15.4px;
+  color: rgb(255, 153, 102);
+}
+
+h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 15.4px;
+  color: white;
 }
