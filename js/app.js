@@ -15,6 +15,7 @@ vid.addEventListener('loadedmetadata', function() {
 
 // Use requestAnimationFrame for smooth playback
 function scrollPlay(){
+  // console.log("test");
   var frameNumber  = window.pageYOffset/playbackConst;
   vid.currentTime  = frameNumber;
   window.requestAnimationFrame(scrollPlay);
