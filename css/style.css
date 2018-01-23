@@ -1,6 +1,7 @@
 #set-height {
   display: block;
 }
+
 #v0 {
   position: fixed;
   top: 0;
@@ -10,15 +11,14 @@
   background: no-repeat;
   background-size: cover;
 }
+
 p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   font-weight: 200;
 }
 
-.background{
-
-}
+.background {}
 
 .p1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -26,52 +26,56 @@ p {
   font-weight: 200;
 }
 
-b {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 24px;
-font-weight: 600;}
+b {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
 
-.b1 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 10px;
-font-weight: 1000;}
+.b1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 1000;
+}
 
 h1 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 3rem;
-	font-weight: 800;
-	line-height: 15.4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 15.4px;
   color: rgb(255, 153, 102);
 }
 
 h2 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 3rem;
-	font-weight: 800;
-	line-height: 15.4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 15.4px;
   color: rgb(204, 255, 153);
 }
 
 h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 80px;
-	font-weight: 800;
-	line-height: 15.4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 15.4px;
   width: 800px;
   color: white;
 }
 
 h4 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 3rem;
-	font-weight: 800;
-	line-height: 15.4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 15.4px;
   color: white;
 }
 
 h5 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 80px;
-	font-weight: 800;
-	line-height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 100%;
   width: 800px;
   margin: 0;
   padding: 0;
@@ -79,33 +83,85 @@ h5 {
 }
 
 h6 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 32px;
-	font-weight: 800;
-	line-height: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 0px;
   color: black;
 }
 
-.offset-top-80{
-  margin-top:80px;
-}
-
-.offset-top-30{
-  margin-top:30px;
-}
-
-.offset-top-120{
-  margin-top:120px;
-}
-
-.offset-top-300{
-  margin-top:300px;
-}
-
-.right{
+.right {
   text-align: right;
 }
 
-.borderDick{
-  border-top:7px black solid;
+.borderDick {
+  border-top: 7px black solid;
+}
+
+.offset-top-80 {
+  margin-top: 80px;
+}
+
+.offset-top-30 {
+  margin-top: 30px;
+}
+
+.offset-top-120 {
+  margin-top: 120px;
+}
+
+.offset-top-200 {
+  margin-top: 200px;
+}
+
+.offset-top-300 {
+  margin-top: 300px;
+}
+
+.offset-top-400 {
+  margin-top: 400px;
+}
+
+.offset-top-500 {
+  margin-top: 500px;
+}
+
+.offset-top-600 {
+  margin-top: 600px;
+}
+
+.offset-top-700 {
+  margin-top: 700px;
+}
+
+.offset-top-800 {
+  margin-top: 800px;
+}
+
+.offset-top-900 {
+  margin-top: 900px;
+}
+
+.offset-top-1000 {
+  margin-top: 1000px;
+}
+
+.offset-top-2000 {
+  margin-top: 2000px;
+}
+
+.offset-top-3000{
+  margin-top:3000px;
+}
+
+.offset-top-3800{
+  margin-top:3800px;
+}
+
+.offset-top-4000{
+  margin-top:4000px;
+}
+
+.offset-top-5000{
+  margin-top:5000px;
 }

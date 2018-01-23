@@ -769,6 +769,10 @@ textarea {
   padding-right: 0.9375rem;
   padding-left: 0.9375rem; }
 
+  .grid-padding-x-5 > .cell {
+    padding-right: 5rem;
+    padding-left: 5rem; }
+
 .small-up-1 > .cell {
   width: 100%; }
 
