@@ -81,7 +81,7 @@ h5 {
   font-size: 80px;
   font-weight: 800;
   line-height: 100%;
-  width: 800px;
+  /* width: 800px; */
   margin: 0;
   padding: 0;
   color: black;
@@ -124,12 +124,24 @@ h6 {
   margin-top: 200px;
 }
 
+.offset-top-260 {
+  margin-top: 260px;
+}
+
 .offset-top-270 {
   margin-top: 270px;
 }
 
 .offset-top-300 {
   margin-top: 300px;
+}
+
+.offset-top-350 {
+  margin-top: 350px;
+}
+
+.offset-top-380 {
+  margin-top: 380px;
 }
 
 .offset-top-400 {
@@ -178,4 +190,22 @@ h6 {
 
 .offset-top-5000{
   margin-top:5000px;
+}
+
+
+.youtube-video {
+  position: relative;
+  padding-bottom: 56.25%; /* ratio 16x9 */
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
