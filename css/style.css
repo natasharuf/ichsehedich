@@ -25,6 +25,10 @@ p {
   padding-right: 20px;
 }
 
+.padding-right-15 {
+  padding-right: 15px;
+}
+
 .p1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
@@ -61,7 +65,7 @@ h2 {
 
 h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 800;
   line-height: 15.4px;
   width: 800px;
@@ -93,6 +97,7 @@ h6 {
   font-weight: 800;
   line-height: 0px;
   color: black;
+  
 }
 
 .right {
@@ -106,6 +111,10 @@ h6 {
 
 .offset-top-30 {
   margin-top: 30px;
+}
+
+.offset-top-40 {
+  margin-top: 40px;
 }
 
 .offset-top-80 {
