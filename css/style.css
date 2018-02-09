@@ -247,3 +247,74 @@ h6 {
 dd { display:none; }
 .closed { background:red; }
 .open { background:green; }
+
+
+.accordion-container {
+	width: 100%;
+	margin: 0 0 20px;
+	clear: both;
+}
+.accordion-toggle {
+	position: relative;
+	display: block;
+	//*padding: 20px;*//
+	font-size: 1.5em;
+	font-weight: 300;
+	//*background: #999;*//
+	color: #fff;
+	text-decoration: none;
+}
+.accordion-toggle.open {
+	background: #333;
+	color: #fff;
+}
+.accordion-toggle:hover {
+	background: #666;
+}
+.accordion-toggle span.toggle-icon {
+	position: absolute;
+	top: 9px;
+	right: 20px;
+	font-size: 1.5em;
+}
+.accordion-content {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+}
+.accordion-content img {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+	max-width: 100%;
+	height: auto;
+}
+
+/* media query for mobile */
+@media (max-width: 767px) {
+	.accordion-content {
+		padding: 10px 0;
+		overflow: inherit;
+	}
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    /*background-color: white; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}

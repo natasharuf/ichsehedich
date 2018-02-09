@@ -10259,3 +10259,26 @@ $(document).ready(function(){
 		$(this).children("a").toggleClass("closed open"); // wechselt beim Klick auf "dt" die Klasse des enthaltenen a-Tags von "closed" zu "open".
 	});
 });
+
+
+$(document).ready(function () {
+    $('.accordion-toggle').on('click', function(event){
+    	event.preventDefault();
+    	// create accordion variables
+    	var accordion = $(this);
+    	var accordionContent = accordion.next('.accordion-content');
+    	var accordionToggleIcon = $(this).children('.toggle-icon');
+
+    	// toggle accordion link open class
+    	accordion.toggleClass("open");
+    	// toggle accordion content
+    	accordionContent.slideToggle(250);
+
+    	// change plus/minus icon
+    	if (accordion.hasClass("open")) {
+    		accordionToggleIcon.html("<i class='fa fa-minus-circle'></i>");
+    	} else {
+    		accordionToggleIcon.html("<i class='fa fa-plus-circle'></i>");
+    	}
+    });
+});
